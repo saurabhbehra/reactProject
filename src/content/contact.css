@@ -1,0 +1,17 @@
+#con_info {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    margin-bottom: 16.2rem;
+}
+
+#con_info h1 {
+    font-size: 40px;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 30px;
+}
+
+#con_info i {
+    font-size: 30px;
+    margin-top: 20px;
+}

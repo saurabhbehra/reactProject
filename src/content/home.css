@@ -1,0 +1,179 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#header {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/f.JPG");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: auto;
+}
+
+#header #text p {
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+    padding-bottom: 20px;
+}
+
+#header #text a {
+    background: #000;
+    border-radius: 10px;
+    color: #fff;
+    text-decoration: none;
+    font-family: sans-serif;
+    padding: 20px 20px;
+}
+
+#header #text {
+    text-align: center;
+}
+
+#header #text h1 {
+    font-size: 50px;
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+    padding-top: 30vh;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 20px;
+}
+
+.title {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    margin: 0;
+}
+.pic {
+    border: none;
+}
+
+.text {
+    color: gray;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 8px;
+}
+
+.main-card {
+    border: none;
+    margin-top: 1rem;
+}
+
+.main-card:hover {
+    background: #ddd;
+    transform: scale(1.1, 1.1);
+}
+
+#founders h1 {
+    padding: 20px 20px;
+    font-family: 'Open sans', sans-serif;
+    text-align: center;
+}
+
+#founders .p1 {
+    float: left;
+    width: 64vh;
+    margin-left: 20vh;
+}
+
+#founders .p1 img {
+    float: left;
+    border-radius: 20px;
+}
+
+#founders .p1 h2 {
+    font-size: 20px;
+    text-align: center;
+    font-family: "open sans", sans-serif;
+}
+
+#founders .p2 {
+    float: right;
+    width: 64vh;
+    margin-right: 20vh;
+}
+
+#founders .p2 img {
+    float: left;
+    border-radius: 20px;
+}
+
+#founders .p2 h2 {
+    font-size: 20px;
+    text-align: center;
+    font-family: "open sans", sans-serif;
+}
+
+#form h1 {
+    text-align: center;
+    padding: 20px 20px;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+
+#more1,
+#more2,
+#more3,
+#more4,
+#more5,
+#more6 {
+    display: none;
+}
+
+.in-pics {
+    height: 25rem;
+}
+
+.prince {
+    height: 25rem;
+}
+
+
+
+@media only screen and (max-width:400px) {
+    body {
+        overflow-x: hidden;
+    }
+    #header #text h1 {
+        font-size: 40px;
+        font-family: 'Raleway', sans-serif;
+        color: #fff;
+        padding-top: 30vh;
+    }
+    .main-card {
+        margin-left: 1.1rem;
+    }
+    .pic {
+        margin-left: -1rem;
+        margin-top: 1rem;
+    }
+    h4 {
+        font-size: 20px;
+    }
+    .fa-graduation-cap {
+        margin-top: 0rem;
+        margin-left: 8rem;
+    }
+    .in-pics {
+        width: 89%;
+    }
+    .main-text {
+        font-size: 14px;
+        margin-left: -3rem;
+        padding: 4rem;
+    }
+}
