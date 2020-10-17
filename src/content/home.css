@@ -58,6 +58,7 @@ h1 {
 }
 .pic {
     border: none;
+    width:26rem;
 }
 
 .text {
@@ -76,6 +77,8 @@ h1 {
 .main-card:hover {
     background: #ddd;
     transform: scale(1.1, 1.1);
+    z-index:100;
+    position: relative;
 }
 
 #founders h1 {
@@ -155,11 +158,20 @@ h1 {
         padding-top: 30vh;
     }
     .main-card {
-        margin-left: 1.1rem;
+        margin-left: -1.7rem;
+        width:12rem;
+        overflow-x: hidden;
+    }
+    .main-card:hover {
+        background: #ddd;
+        transform: scale(0.9,0.9);
+        z-index:100;
+        position: relative;
     }
     .pic {
         margin-left: -1rem;
         margin-top: 1rem;
+       
     }
     h4 {
         font-size: 20px;
@@ -169,11 +181,13 @@ h1 {
         margin-left: 8rem;
     }
     .in-pics {
-        width: 89%;
+        width: 70%;
+        margin-left: 1.5rem;
     }
     .main-text {
         font-size: 14px;
-        margin-left: -3rem;
+        margin-left: -4rem;
         padding: 4rem;
+       
     }
 }
