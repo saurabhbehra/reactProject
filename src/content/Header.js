@@ -19,12 +19,12 @@ const Header = () => {
                 <div className="col-sm-2">
                     <div id="mySidenav" className="sidenav">
                         <a className="closebtn" onClick={closeNav}>×</a>
-                        <li><a href="/" className="active">Home</a></li>
-                        <li><a href="/apply-online">Admission Form</a></li>
-                        <li><a href="/fee-structure">Fee-Structure</a></li>
-                        <li><a href="/gallary">Gallery</a></li>
-                        <li><a href="/teachers-info">Faculties</a></li>
-                        <li><a href="/contact-us">Contact Us</a></li>
+                        <li><NavLink to="/" className="active"  onClick={closeNav}>Home</NavLink></li>
+                        <li><NavLink to="/apply-online"  onClick={closeNav}>Admission Form</NavLink></li>
+                        <li><NavLink to="/fee-structure" onClick={closeNav}>Fee-Structure</NavLink></li>
+                        <li><NavLink to ="/gallery" onClick={closeNav}>Gallery</NavLink></li>
+                        <li><NavLink to="/teachers-info" onClick={closeNav}>Faculties</NavLink></li>
+                        <li><NavLink to="/contact-us" onClick={closeNav}>Contact Us</NavLink></li>
                     </div>
                     <span style={{ fontSize: '30px', cursor: 'pointer', position: 'relative' }} id="menu_button" onClick={openNav}>☰
                      <div style={{ marginTop: '-2.3rem', marginLeft: '16rem' }}><img src={Logo} style={{ width: '5rem', height: '3.9rem' }} /></div>
