@@ -70,7 +70,7 @@ const Home = ()  => {
                     <h1>Welcome To Evergreen Public School</h1>
                     <p>Learning Becomes Easier,Playful and Smart</p>
                     <marquee scrollamount="10" style={{color:"red",fontSize:"30px",marginBottom:"3rem"}}><b>50% Off On Admission Fees (Due to COVID-19)</b></marquee><br />
-                    <a href="/apply-online">Apply Online</a>
+                    <a href="https://forms.gle/py664FeKN1rM4aCTA">Apply Online</a>
                 </section>
             </section>
             <h1>Our Facilities</h1>

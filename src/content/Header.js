@@ -1,5 +1,5 @@
 import React from 'react'
-import { NavLink } from 'react-router-dom';
+import { NavLink, Link } from 'react-router-dom';
 
 import Logo from '../images/logo.jpeg'
 import './header.css'
@@ -20,7 +20,7 @@ const Header = () => {
                     <div id="mySidenav" className="sidenav">
                         <a className="closebtn" onClick={closeNav}>×</a>
                         <li><NavLink to="/" className="active"  onClick={closeNav}>Home</NavLink></li>
-                        <li><NavLink to="/apply-online"  onClick={closeNav}>Admission Form</NavLink></li>
+                        <li onClick={()=>window.open("https://forms.gle/py664FeKN1rM4aCTA", "_blank")}><a href="" onClick={closeNav}>Admission Form</a></li>
                         <li><NavLink to="/fee-structure" onClick={closeNav}>Fee-Structure</NavLink></li>
                         <li><NavLink to ="/gallery" onClick={closeNav}>Gallery</NavLink></li>
                         <li><NavLink to="/teachers-info" onClick={closeNav}>Faculties</NavLink></li>
@@ -39,7 +39,7 @@ const Header = () => {
                                     <NavLink to="/" className="nav-link header-nav" >Home</NavLink>
                                 </li>
                                 <li className="nav-item">
-                                    <NavLink to="/apply-online" className="nav-link header-nav" >Admission Form</NavLink>
+                                    <a href="https://forms.gle/py664FeKN1rM4aCTA" className="nav-link header-nav" >Admission Form</a>
                                 </li>
                                 <li className="nav-item">
                                     <NavLink to="/fee-structure" className="nav-link header-nav" >Fee-Structure</NavLink>
